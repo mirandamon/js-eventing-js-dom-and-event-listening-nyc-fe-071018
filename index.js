@@ -1,5 +1,6 @@
 const shoppingPage = document.querySelector('#main')
 const paragraph = document.querySelector('p')
+const input = document.querySelector('input')
 
 let divs = document.querySelectorAll('div')
 

@@ -8,7 +8,7 @@ function bubble(event) {
 }
 
 for (div of divs) {
-  
+  div.addEventListener('click', bubble)
 }
 
 /*

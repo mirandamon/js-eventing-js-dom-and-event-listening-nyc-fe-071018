@@ -5,7 +5,7 @@ const input = document.querySelector('input')
 let divs = document.querySelectorAll('div')
 
 input.addEventListener('keydown', (event) => {
-  
+  if (event === )
   console.log(event)
 })
 

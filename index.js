@@ -4,7 +4,7 @@ const input = document.querySelector('input')
 
 let divs = document.querySelectorAll('div')
 
-const whatTheyveTypedSoFar = ''
+let whatTheyveTypedSoFar = ''
 
 input.addEventListener('keydown', (event) => {
   const nums = []

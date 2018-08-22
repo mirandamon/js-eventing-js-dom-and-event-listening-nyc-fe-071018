@@ -11,6 +11,7 @@ input.addEventListener('keydown', (event) => {
   if (whatTheyveTypedSoFar.length === 0 && event.which === 71) {
     event.preventDefault()
   }
+  whatTheyveTypedSoFar += event.key
   //console.log(event)
 })
 

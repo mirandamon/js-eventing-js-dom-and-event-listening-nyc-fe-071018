@@ -4,9 +4,11 @@ const input = document.querySelector('input')
 
 let divs = document.querySelectorAll('div')
 
+const whatTheyveTypedSoFar = ''
+
 input.addEventListener('keydown', (event) => {
   const nums = []
-  if (event.which === 71) {
+  if (whatTheyveTypedSoFar.length === 0 && event.which === 71) {
     event.preventDefault()
   }
   //console.log(event)

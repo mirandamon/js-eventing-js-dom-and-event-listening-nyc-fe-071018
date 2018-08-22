@@ -10,6 +10,8 @@ input.addEventListener('keydown', (event) => {
   const nums = []
   if (whatTheyveTypedSoFar.length === 0 && event.which === 71) {
     event.preventDefault()
+  } else {
+    whatTheyveTypedSoFar += event.key
   }
   //console.log(event)
 })
